@@ -2,6 +2,7 @@ const request = require("supertest");
 const { expect } = require("chai");
 const app = require("../src/app");
 
+<<<<<<< HEAD
 describe("DELETE /accounts/:id", () => {
   let accountId;
 
@@ -60,3 +61,6 @@ describe("DELETE /accounts/:id", () => {
     expect(afterRes.body.find((a) => a.id === accountId)).to.be.undefined;
   });
 });
+=======
+describe("DELETE /accounts/:id", () => {});
+>>>>>>> a96ee25b01b33705da8c3d9c0373b7e35b4be260
