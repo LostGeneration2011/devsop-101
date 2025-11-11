@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express().use(express.json());
 
-<<<<<<< HEAD
+
 const accounts = [];
 let nextId = 1;
 
@@ -29,6 +29,4 @@ app
     res.sendStatus(204);
   });
 
-=======
->>>>>>> a96ee25b01b33705da8c3d9c0373b7e35b4be260
 module.exports = app;

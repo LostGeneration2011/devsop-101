@@ -2,7 +2,7 @@ const request = require("supertest");
 const { expect } = require("chai");
 const app = require("../src/app");
 
-<<<<<<< HEAD
+
 describe("POST /accounts", () => {
   it("should return status 201 with json body & create a new account", async () => {
     const payload = { name: "Donald Trump", email: "dt@us.a" };
@@ -17,6 +17,6 @@ describe("POST /accounts", () => {
     expect(res.body.email).to.equal(payload.email);
   });
 });
-=======
+
 describe("POST /accounts", () => {});
->>>>>>> a96ee25b01b33705da8c3d9c0373b7e35b4be260
+ a96ee25b01b33705da8c3d9c0373b7e35b4be260
