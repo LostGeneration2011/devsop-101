@@ -1,0 +1,36 @@
+{
+  "name": "devops-project",
+  "version": "1.0.0",
+  "description": "A template to do the Dev Ops project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha --recursive --reporter spec --colors --exit",
+    "coverage": "nyc --reporter=lcov --reporter=text npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "chai": "^5.3.3",
+    "mocha": "^11.7.4",
+    "nyc": "^17.1.0",
+    "supertest": "^7.1.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel7721/devsop-101.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gabriel7721/devsop-101/issues"
+  },
+  "homepage": "https://github.com/Gabriel7721/devsop-101#readme"
+}
